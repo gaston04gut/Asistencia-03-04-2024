@@ -45,7 +45,7 @@ public class Main {
 	public static void registrarNotas(Alumno alumno) {
 		Scanner scanner = new Scanner(System.in);
 		int numMaterias = 1;
-		while(numMaterias<=2) {
+		while(numMaterias<=4) {
 			System.out.println("Ingrese el Codigo de la Materia");
 			String codigoMateria = scanner.next();
 
